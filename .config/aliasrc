@@ -105,7 +105,7 @@ alias vbm="sudo mount -t vboxsf -o rw,uid=1000,gid=1000 Public /home/$USER/Publi
 #shopt -s autocd # change to named directory
 #shopt -s cdspell # autocorrects cd misspellings
 #shopt -s cmdhist # save multi-line commands in history as single line
-#shopt -s dotglob
+#shopt -s dotglobalias upf=""
 #shopt -s histappend # do not overwrite history
 #shopt -s expand_aliases # expand aliases
 
@@ -147,6 +147,9 @@ alias nconfgrub="sudo nano /boot/grub/grub.cfg"
 alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 #receive the key of a developer
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+
+#ZENCARS moar
+alias upf="mirrors && yay -Syyu"
 
 #shutdown or reboot
 alias ssn="sudo shutdown now"

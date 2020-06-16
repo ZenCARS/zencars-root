@@ -2,6 +2,7 @@
 
 export EDITOR="nvim"
 export TERMINAL="termite"
+export BROWSER="brave"
 
 export ZDOTDIR="$HOME/.config/zsh"
 
