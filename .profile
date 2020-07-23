@@ -1,10 +1,11 @@
 # export RANGER_LOAD_DEFAULT_RC=FALSE
 
 export EDITOR="nvim"
-export VISUAL="codium"
+export VISUALEDITOR="code"
 export TERMINAL="st"
 export BROWSER="brave"
 export FILES="ranger"
+export FILES_VISUAL="thunar"
 export EMAIL="thunderbird"
 export PDF="zathura"
 

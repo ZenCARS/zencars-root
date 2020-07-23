@@ -15,7 +15,6 @@ alias l.="ls -A | egrep '^\.'"
 
 #fix obvious typo's
 alias cd..='cd ..'
-alias ..="cd .."
 alias pdw="pwd"
 alias udpate='sudo pacman -Syyu'
 alias upate='sudo pacman -Syyu'
@@ -149,7 +148,7 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 #ZENCARS moar
-alias upf="mirrors && yay -Syyu"
+alias upf="sudo pacman -h > /dev/null && echo 'Getting fastest german https mirrors!' && sudo reflector --fastest 30 --latest 30 --country de --protocol https --sort rate -n 10 --save /etc/pacman.d/mirrorlist && yay -Syyu"
 
 #shutdown or reboot
 alias ssn="sudo shutdown now"
